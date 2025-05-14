@@ -1,0 +1,59 @@
+.product-card {
+  @apply card flex flex-col p-4 transition duration-200 hover:shadow-lg h-full;
+}
+
+.product-card:hover {
+  @apply border-primary-300;
+}
+
+.product-card__header {
+  @apply flex justify-between items-center mb-2;
+}
+
+.product-card__category {
+  @apply text-xs inline-flex items-center rounded-full px-2.5 py-0.5 bg-primary-100 text-primary-800;
+}
+
+.product-card__id {
+  @apply text-gray-500 text-sm;
+}
+
+.product-card__name {
+  @apply text-lg font-semibold text-gray-900 mb-4 line-clamp-1;
+}
+
+.product-card__info {
+  @apply grid grid-cols-2 gap-4 mb-4;
+}
+
+.product-card__price-info, .product-card__quantity-info {
+  @apply flex flex-col;
+}
+
+.product-card__price, .product-card__quantity {
+  @apply text-base font-semibold text-gray-900;
+}
+
+.product-card__price-label, .product-card__quantity-label {
+  @apply text-xs text-gray-500;
+}
+
+.product-card__footer {
+  @apply flex justify-between items-center mt-auto pt-4 border-t border-gray-100;
+}
+
+.product-card__total {
+  @apply flex flex-col;
+}
+
+.product-card__total-label {
+  @apply text-xs text-gray-500;
+}
+
+.product-card__total-value {
+  @apply text-sm font-semibold text-gray-900;
+}
+
+.product-card__action {
+  @apply text-primary-600 hover:text-primary-700 p-1 rounded-full hover:bg-primary-50 transition;
+} 

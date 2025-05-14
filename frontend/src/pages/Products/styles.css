@@ -1,0 +1,59 @@
+.products-page {
+  @apply px-6 py-8 max-w-7xl mx-auto;
+}
+
+.products-page__header {
+  @apply flex justify-between items-center mb-8;
+}
+
+.products-page__title {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.products-page__actions {
+  @apply flex items-center gap-2;
+}
+
+.products-page__filters {
+  @apply mb-6 p-6 bg-gray-50 rounded-lg border border-gray-200 space-y-6;
+}
+
+.products-page__filter-section {
+  @apply pb-4 border-b border-gray-200;
+}
+
+.products-page__filter-title {
+  @apply text-lg font-medium mb-4 text-gray-800;
+}
+
+.products-page__filter-form {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end;
+}
+
+.products-page__aggregate-result {
+  @apply flex flex-col p-4 bg-primary-50 border border-primary-200 rounded-md mt-4;
+}
+
+.products-page__aggregate-label {
+  @apply text-sm text-gray-500 mb-1;
+}
+
+.products-page__aggregate-value {
+  @apply text-xl font-bold text-primary-700;
+}
+
+.products-page__error {
+  @apply mb-6 p-4 bg-red-50 text-red-700 rounded-lg border border-red-200 flex items-center;
+}
+
+.products-page__loading {
+  @apply p-12 text-center text-gray-500;
+}
+
+.products-page__empty {
+  @apply p-12 text-center text-gray-500 flex flex-col items-center gap-4;
+}
+
+.products-page__grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+} 

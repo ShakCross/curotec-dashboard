@@ -1,0 +1,19 @@
+.create-product-form {
+  @apply space-y-6;
+}
+
+.create-product-form__field {
+  @apply mb-4;
+}
+
+.create-product-form__actions {
+  @apply mt-6;
+}
+
+.create-product-form__error {
+  @apply p-4 mb-6 bg-red-50 text-red-700 rounded-lg border border-red-200;
+}
+
+.create-product-form__success {
+  @apply p-6 bg-green-50 text-green-700 rounded-lg border border-green-200 text-center;
+} 
