@@ -22,7 +22,7 @@ The project follows a clean architecture pattern with:
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.11
 - Docker and Docker Compose
 - PostgreSQL 15 (provided via Docker)
 
@@ -50,6 +50,9 @@ The project follows a clean architecture pattern with:
    ```
    cd data_processing_api
    python manage.py migrate
+   cd .. (Optional)
+   python scripts/init_db.py (Optional)
+   python scripts/load_test_data.py (Optional)
    ```
 
 6. **Run the development server**
